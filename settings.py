@@ -1,6 +1,6 @@
 import environ
 
 env = environ.Env()
-env.read_env('BOT-TOKEN')
+env.read_env('.env')
 
-BOT_TOKEN = env.str('BOT-TOKEN')
+BOT_TOKEN = env.str('BOT_TOKEN')
